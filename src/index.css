@@ -1,0 +1,9 @@
+@import "antd/dist/reset.css";
+
+.ant-btn-primary{
+    background-color: #2489dc;
+}
+.ant-btn-link{
+    background-color: rgba(220, 20, 60, 0.48);
+    color: #ececec;
+}
