@@ -12,7 +12,7 @@ export interface DataType {
 	flag: boolean
 }
 
-export let dataTable:DataType[] = Array.from({length: 2000}, () => {
+export let dataTable:DataType[] = Array.from({length: 100}, () => {
 	const key = idCreator()
 	return ({
 		key: key,
